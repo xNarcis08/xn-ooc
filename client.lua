@@ -6,19 +6,19 @@ local meters = 10
 --           Commands            --
 -----------------------------------
 RegisterCommand("ooc", function(source, args, raw)
-    TriggerServerEvent("W00PI:DisplayShare", message)  
+    TriggerServerEvent("xnarcis08:githubooc, message)  
 end) 
 
 RegisterCommand('xnarcis08', function(source,args,raw)
-    TriggerServerEvent('W00PI:DisplayShare', messagedev)
+    TriggerServerEvent('xnarcis08:githubooc', messagedev)
 end)
 
 RegisterCommand('xnarcis086', function(source,args,raw)
-    TriggerServerEvent('W00PI:DisplayShare', vipsv)
+    TriggerServerEvent('xnarcis08:githubooc', vipsv)
 end)
 
-RegisterNetEvent("W00PI:DisplayTrigger")
-AddEventHandler("W00PI:DisplayTrigger", function(message, messagedev, source)
+RegisterNetEvent("xnarcis08:github")
+AddEventHandler("xnarcis08:github", function(message, messagedev, source)
     local displaying = true 
     DisplayFunc(GetPlayerFromServerId(source), message, messagedev)
 end)
