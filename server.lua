@@ -1,4 +1,4 @@
-RegisterServerEvent("W00PI:DisplayShare")
-AddEventHandler("W00PI:DisplayShare", function(message)
-    TriggerClientEvent("W00PI:DisplayTrigger", -1, message, source)
+RegisterServerEvent("xnarcis08:githubooc")
+AddEventHandler("xnarcis08:githubooc", function(message)
+    TriggerClientEvent("xnarcis08:github", -1, message, source)
 end)
